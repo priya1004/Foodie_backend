@@ -1,0 +1,42 @@
+C:\WebApi\FoodieServices\UserModel\bin\Debug\net6.0\Models.deps.json
+C:\WebApi\FoodieServices\UserModel\bin\Debug\net6.0\Models.runtimeconfig.json
+C:\WebApi\FoodieServices\UserModel\bin\Debug\net6.0\Models.dll
+C:\WebApi\FoodieServices\UserModel\bin\Debug\net6.0\Models.pdb
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\Models.csproj.AssemblyReference.cache
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\Models.AssemblyInfo.cs
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\Models.dll
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\refint\Models.dll
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\Models.pdb
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\Models.genruntimeconfig.cache
+C:\WebApi\FoodieServices\UserModel\obj\Debug\net6.0\ref\Models.dll
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\bin\Debug\net6.0\Models.deps.json
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\bin\Debug\net6.0\Models.runtimeconfig.json
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\bin\Debug\net6.0\Models.dll
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\bin\Debug\net6.0\Models.pdb
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\Models.csproj.AssemblyReference.cache
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\Models.AssemblyInfo.cs
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\Models.dll
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\refint\Models.dll
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\Models.pdb
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\Models.genruntimeconfig.cache
+C:\Users\snehaaj\Priya_Foodie\Foodie\UserModel\obj\Debug\net6.0\ref\Models.dll
+C:\training\Main Project\backend\Foodie\UserModel\bin\Debug\net6.0\Models.deps.json
+C:\training\Main Project\backend\Foodie\UserModel\bin\Debug\net6.0\Models.runtimeconfig.json
+C:\training\Main Project\backend\Foodie\UserModel\bin\Debug\net6.0\Models.dll
+C:\training\Main Project\backend\Foodie\UserModel\bin\Debug\net6.0\Models.pdb
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\Models.csproj.AssemblyReference.cache
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\Models.AssemblyInfo.cs
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\Models.dll
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\refint\Models.dll
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\Models.pdb
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\Models.genruntimeconfig.cache
+C:\training\Main Project\backend\Foodie\UserModel\obj\Debug\net6.0\ref\Models.dll

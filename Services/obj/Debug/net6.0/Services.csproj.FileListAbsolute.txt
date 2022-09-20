@@ -1,0 +1,57 @@
+C:\WebApi\FoodieServices\Services\bin\Debug\net6.0\Services.deps.json
+C:\WebApi\FoodieServices\Services\bin\Debug\net6.0\Services.dll
+C:\WebApi\FoodieServices\Services\bin\Debug\net6.0\Services.pdb
+C:\WebApi\FoodieServices\Services\bin\Debug\net6.0\Models.dll
+C:\WebApi\FoodieServices\Services\bin\Debug\net6.0\Repositories.dll
+C:\WebApi\FoodieServices\Services\bin\Debug\net6.0\Repositories.pdb
+C:\WebApi\FoodieServices\Services\bin\Debug\net6.0\Models.pdb
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\Services.dll
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\refint\Services.dll
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\Services.pdb
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\ref\Services.dll
+C:\WebApi\FoodieServices\Services\bin\Debug\net6.0\Services.runtimeconfig.json
+C:\WebApi\FoodieServices\Services\obj\Debug\net6.0\Services.genruntimeconfig.cache
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\bin\Debug\net6.0\Services.deps.json
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\bin\Debug\net6.0\Services.runtimeconfig.json
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\bin\Debug\net6.0\Services.dll
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\bin\Debug\net6.0\Services.pdb
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\bin\Debug\net6.0\Models.dll
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\bin\Debug\net6.0\Repositories.dll
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\bin\Debug\net6.0\Repositories.pdb
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\bin\Debug\net6.0\Models.pdb
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\Services.dll
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\refint\Services.dll
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\Services.pdb
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\Services.genruntimeconfig.cache
+C:\Users\snehaaj\Priya_Foodie\Foodie\Services\obj\Debug\net6.0\ref\Services.dll
+C:\training\Main Project\backend\Foodie\Services\bin\Debug\net6.0\Services.deps.json
+C:\training\Main Project\backend\Foodie\Services\bin\Debug\net6.0\Services.runtimeconfig.json
+C:\training\Main Project\backend\Foodie\Services\bin\Debug\net6.0\Services.dll
+C:\training\Main Project\backend\Foodie\Services\bin\Debug\net6.0\Services.pdb
+C:\training\Main Project\backend\Foodie\Services\bin\Debug\net6.0\Models.dll
+C:\training\Main Project\backend\Foodie\Services\bin\Debug\net6.0\Repositories.dll
+C:\training\Main Project\backend\Foodie\Services\bin\Debug\net6.0\Repositories.pdb
+C:\training\Main Project\backend\Foodie\Services\bin\Debug\net6.0\Models.pdb
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\Services.dll
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\refint\Services.dll
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\Services.pdb
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\Services.genruntimeconfig.cache
+C:\training\Main Project\backend\Foodie\Services\obj\Debug\net6.0\ref\Services.dll
