@@ -15,19 +15,19 @@ namespace Services
         {
             this.adminRepo = ar;
         }
-        //public List<RestaurantRequest> GetRestaurantRequest()
-        //{
-        //    return adminRepo.GetRestaurantRequest();
-        //}
+        public List<RestaurantRequest> GetRestaurantRequest()
+        {
+            return adminRepo.GetRestaurantRequest();
+        }
         public List<Restaurant> GetMainRestaurants()
         {
             return adminRepo.GetMainRestaurants();
 
         }
-        //public string Verified(int id,int value)
-        //{
-        //   return adminRepo.Verified(id,value);
-        //}
+        public string Verified(string id, int value)
+        {
+            return adminRepo.Verified(id, value);
+        }
 
         //public List<Feedback> GetFeedbacks()
         //{

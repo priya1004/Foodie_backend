@@ -31,9 +31,10 @@ namespace CartApiService.Controllers
         }
 
         // POST api/<CartController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("AddToCart")]
+        public string AddToCart([FromBody] Cart c)
         {
+            return _ic.AddToCart(c);
         }
 
         // PUT api/<CartController>/5

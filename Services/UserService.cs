@@ -27,9 +27,13 @@ namespace Services
         {
             return r.GetItem(id);
         }
-        public List<Restaurant> GetRestaurantDetails(int id)
+        public List<Restaurant> GetRestaurantDetails(string id)
         {
             return r.GetRestaurantDetails(id);
+        }
+        public bool ValidateUser(User u)
+        {
+            return r.ValidateUser(u);
         }
 
     }

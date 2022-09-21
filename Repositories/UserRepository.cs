@@ -45,7 +45,7 @@ namespace Repositories
         }
 
 
-        public List<Restaurant> GetRestaurantDetails(int id)
+        public List<Restaurant> GetRestaurantDetails(string id)
         {
             List<Restaurant>rest_list=_fc.MainRestaurantList.ToList();
             List<Restaurant>new_rest_list=new List<Restaurant>();
@@ -59,6 +59,14 @@ namespace Repositories
             }
             return new_rest_list;
         }
+        public bool ValidateUser(User u)
+        {
+            var result = _fc.Users.Where(p => p.Password == u.Password && p.Email == u.Email).FirstOrDefault();
+            if (result == null)
+                return false;
+            return true;
+        }
+
 
         //public bool ValidateUser(User u)
         //{

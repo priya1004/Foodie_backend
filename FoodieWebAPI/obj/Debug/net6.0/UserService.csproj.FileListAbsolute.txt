@@ -211,3 +211,7 @@ C:\training\Main Project\backend\Foodie\FoodieWebAPI\bin\Debug\net6.0\Restaurant
 C:\training\Main Project\backend\Foodie\FoodieWebAPI\bin\Debug\net6.0\ItemApiService.pdb
 C:\training\Main Project\backend\Foodie\FoodieWebAPI\bin\Debug\net6.0\RestaurantOwnerAPIService.pdb
 C:\training\Main Project\backend\Foodie\FoodieWebAPI\obj\Debug\net6.0\UserService.MvcApplicationPartsAssemblyInfo.cs
+C:\training\Main Project\backend\Foodie\FoodieWebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\training\Main Project\backend\Foodie\FoodieWebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\training\Main Project\backend\Foodie\FoodieWebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\training\Main Project\backend\Foodie\FoodieWebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -16,9 +16,9 @@ namespace Repositories
         public CartRepository()
         {
             mongoClient = new MongoClient("mongodb://127.0.0.1:27017"); //url of the server
-            database = mongoClient.GetDatabase("Cart"); //db name
+            database = mongoClient.GetDatabase("Foodie"); //db name
         }
-        IMongoCollection<Cart> CartSet => database.GetCollection<Cart>("CartTable");
+        IMongoCollection<Cart> CartSet => database.GetCollection<Cart>("CartInfo");
 
 
 
@@ -32,6 +32,19 @@ namespace Repositories
         {
             return CartSet.Find((p) => true).ToList();
 
+        }
+
+
+        public string AddToCart(Cart c)
+        {
+            if (c != null)
+            {
+                CartSet.InsertOne(c);
+                return "CartAdded";
+            }
+            else
+                return "CartEmpty";
+            
         }
     }
 }

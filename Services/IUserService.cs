@@ -7,6 +7,7 @@ namespace Services
     {
         bool RegisterUser(User u);
         List<Item> GetItem(string id);
-        List<Restaurant> GetRestaurantDetails(int id);
+        List<Restaurant> GetRestaurantDetails(string id);
+        bool ValidateUser(User u);
     }
 }

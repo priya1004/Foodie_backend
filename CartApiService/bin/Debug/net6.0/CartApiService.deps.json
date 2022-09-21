@@ -581,7 +581,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
-          "MongoDB.Bson": "2.17.1"
+          "MongoDB.Bson": "2.17.1",
+          "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
           "Models.dll": {}
@@ -592,7 +593,8 @@
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "Models": "1.0.0",
-          "MongoDB.Driver": "2.17.1"
+          "MongoDB.Driver": "2.17.1",
+          "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
           "Repositories.dll": {}
@@ -603,7 +605,8 @@
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "Models": "1.0.0",
-          "Repositories": "1.0.0"
+          "Repositories": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
           "Services.dll": {}

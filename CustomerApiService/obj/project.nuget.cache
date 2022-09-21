@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "C+7D41alIp12IBIgOhZbnnBfu19KazrO7+iyj+HMNWhiFQ1bVWngRpKD3AqEDhTKwldqb/PhSzTRNfz2EQ5LMw==",
+  "success": true,
+  "projectFilePath": "C:\\training\\Main Project\\backend\\Foodie\\CustomerApiService\\CustomerApiService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prramesh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\prramesh\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\prramesh\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\prramesh\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\prramesh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\prramesh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

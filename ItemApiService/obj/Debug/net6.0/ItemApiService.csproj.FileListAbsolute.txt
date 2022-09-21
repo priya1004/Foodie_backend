@@ -134,3 +134,8 @@ C:\training\Main Project\backend\Foodie\ItemApiService\bin\Debug\net6.0\runtimes
 C:\training\Main Project\backend\Foodie\ItemApiService\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 C:\training\Main Project\backend\Foodie\ItemApiService\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 C:\training\Main Project\backend\Foodie\ItemApiService\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\training\Main Project\backend\Foodie\ItemApiService\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\training\Main Project\backend\Foodie\ItemApiService\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\training\Main Project\backend\Foodie\ItemApiService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\training\Main Project\backend\Foodie\ItemApiService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\training\Main Project\backend\Foodie\ItemApiService\obj\Debug\net6.0\ItemApiService.MvcApplicationPartsAssemblyInfo.cs

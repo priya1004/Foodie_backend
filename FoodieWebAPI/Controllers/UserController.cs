@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Models;
 using Services;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using UserModel;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,7 +16,8 @@ namespace UserService.Controllers
     {
 
         private readonly Services.IUserService _services;
-        public UserController(Services.IUserService ser) { _services = ser; }
+        private IConfiguration _config = null;
+        public UserController(Services.IUserService ser, IConfiguration configuration) { _services = ser; _config = configuration; }
         // GET: api/<UserController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -29,7 +34,7 @@ namespace UserService.Controllers
 
         [HttpGet("RestaurantDetails/{id}")]
 
-        public List<Restaurant> GetRestaurantDetails(int id)
+        public List<Restaurant> GetRestaurantDetails(string id)
         {
             return _services.GetRestaurantDetails(id);
         }
@@ -42,6 +47,42 @@ namespace UserService.Controllers
             _services.RegisterUser(value);
 
         }
+
+
+        [HttpPost("Validate")]
+        public string Validate(User u)
+        {
+            throw new Exception();
+            if (_services.ValidateUser(u))
+
+                return GenerateToken(u);
+            return "User notfound";
+
+        }
+
+        private string GenerateToken(User u)
+        {
+
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            var claims = new[] {
+                    new Claim(JwtRegisteredClaimNames.Email, u.Email),
+                    new Claim("Role", "User"),
+                    new Claim("Email",u.Email),
+        //new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+    };
+            var token = new JwtSecurityToken(_config["Jwt:Issuer"],
+              _config["Jwt:Audience"],
+             // null,
+             claims,
+             expires: DateTime.Now.AddMinutes(120),
+             signingCredentials: credentials);
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+
+
 
         // PUT api/<UserController>/5
         [HttpPut("{id}")]

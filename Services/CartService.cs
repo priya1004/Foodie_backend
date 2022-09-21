@@ -19,5 +19,9 @@ namespace Services
         {
             return rep.ShowCart();
         }
+        public string AddToCart(Cart c)
+        {
+            return rep.AddToCart(c);
+        }
     }
 }

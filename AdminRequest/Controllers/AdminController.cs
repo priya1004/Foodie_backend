@@ -23,12 +23,12 @@ namespace AdminRequest.Controllers
         //    return new string[] { "value1", "value2" };
         //}
 
-        //[HttpGet("RestaurantRequest")]
+        [HttpGet("RestaurantRequest")]
 
-        //public List<RestaurantRequest> GetRestaurantRequest()
-        //{
-        //    //return adminService.GetRestaurantRequest();
-        //}
+        public List<RestaurantRequest> GetRestaurantRequest()
+        {
+            return adminService.GetRestaurantRequest();
+        }
         [HttpGet("MainRestaurants")]
 
         public List<Restaurant> GetMainRestaurants()
@@ -62,13 +62,13 @@ namespace AdminRequest.Controllers
         //{
         //}
 
-        //// PUT api/<AdminController>/5
-        //[HttpPut("verified/{id}/{value}")]
-        //public string Put(int id,int value)
-        //{
+        // PUT api/<AdminController>/5
+        [HttpPut("verified/{id}/{value}")]
+        public string Put(string id, int value)
+        {
 
-        //    return adminService.Verified(id,value);
-        //}
+            return adminService.Verified(id, value);
+        }
 
         //// DELETE api/<AdminController>/5
         //[HttpDelete("{id}")]

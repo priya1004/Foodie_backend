@@ -7,19 +7,17 @@ using System.Threading.Tasks;
 
 namespace Models
 {
+    [BsonIgnoreExtraElements]
     public class Cart
     {
-        [BsonId]
-        public string _id { get; set; }
-        public int ItemId { get; set; }
-        public string ItemName { get; set; }
-        public int Quantity { get; set; }
-        public int RestaurantId {get;set;}
-        public string RestaurantName { get; set; }
-        public int Price { get; set; }
-        public string UserID { get; set; }
-        public string UserName { get; set; }
         
+       public int itemid { get; set; }
+        public string name { get; set; }    
+        public int price { get; set; }
+        public int quantity { get; set; }
+
+       
+        public string restaurantid { get; set; }
 
        
     }
