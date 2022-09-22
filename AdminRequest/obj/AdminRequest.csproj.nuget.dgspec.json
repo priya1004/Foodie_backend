@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\training\\Main Project\\backend\\Foodie\\AdminRequest\\AdminRequest.csproj": {}
+    "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\AdminRequest\\AdminRequest.csproj": {}
   },
   "projects": {
-    "C:\\training\\Main Project\\backend\\Foodie\\AdminRequest\\AdminRequest.csproj": {
+    "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\AdminRequest\\AdminRequest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\training\\Main Project\\backend\\Foodie\\AdminRequest\\AdminRequest.csproj",
+        "projectUniqueName": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\AdminRequest\\AdminRequest.csproj",
         "projectName": "AdminRequest",
-        "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\AdminRequest\\AdminRequest.csproj",
-        "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
-        "outputPath": "C:\\training\\Main Project\\backend\\Foodie\\AdminRequest\\obj\\",
+        "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\AdminRequest\\AdminRequest.csproj",
+        "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\AdminRequest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,20 +28,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\training\\Main Project\\backend\\Foodie\\FoodieWebAPI\\UserService.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\FoodieWebAPI\\UserService.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\FoodieWebAPI\\UserService.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\FoodieWebAPI\\UserService.csproj"
               },
-              "C:\\training\\Main Project\\backend\\Foodie\\ItemApiService\\ItemApiService.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\ItemApiService\\ItemApiService.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\ItemApiService\\ItemApiService.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\ItemApiService\\ItemApiService.csproj"
               },
-              "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Repositories\\Repositories.csproj"
               },
-              "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj"
               },
-              "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj"
               }
             }
           }
@@ -101,17 +101,17 @@
         }
       }
     },
-    "C:\\training\\Main Project\\backend\\Foodie\\FoodieWebAPI\\UserService.csproj": {
+    "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\FoodieWebAPI\\UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\training\\Main Project\\backend\\Foodie\\FoodieWebAPI\\UserService.csproj",
+        "projectUniqueName": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\FoodieWebAPI\\UserService.csproj",
         "projectName": "UserService",
-        "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\FoodieWebAPI\\UserService.csproj",
-        "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
-        "outputPath": "C:\\training\\Main Project\\backend\\Foodie\\FoodieWebAPI\\obj\\",
+        "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\FoodieWebAPI\\UserService.csproj",
+        "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\FoodieWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -125,17 +125,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\training\\Main Project\\backend\\Foodie\\ItemApiService\\ItemApiService.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\ItemApiService\\ItemApiService.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\ItemApiService\\ItemApiService.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\ItemApiService\\ItemApiService.csproj"
               },
-              "C:\\training\\Main Project\\backend\\Foodie\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj"
               },
-              "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj"
               },
-              "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj"
               }
             }
           }
@@ -195,17 +195,17 @@
         }
       }
     },
-    "C:\\training\\Main Project\\backend\\Foodie\\ItemApiService\\ItemApiService.csproj": {
+    "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\ItemApiService\\ItemApiService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\training\\Main Project\\backend\\Foodie\\ItemApiService\\ItemApiService.csproj",
+        "projectUniqueName": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\ItemApiService\\ItemApiService.csproj",
         "projectName": "ItemApiService",
-        "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\ItemApiService\\ItemApiService.csproj",
-        "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
-        "outputPath": "C:\\training\\Main Project\\backend\\Foodie\\ItemApiService\\obj\\",
+        "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\ItemApiService\\ItemApiService.csproj",
+        "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\ItemApiService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -219,8 +219,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj"
               }
             }
           }
@@ -262,17 +262,17 @@
         }
       }
     },
-    "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
-        "outputPath": "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -286,8 +286,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj"
               }
             }
           }
@@ -344,17 +344,17 @@
         }
       }
     },
-    "C:\\training\\Main Project\\backend\\Foodie\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj": {
+    "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\training\\Main Project\\backend\\Foodie\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj",
+        "projectUniqueName": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj",
         "projectName": "RestaurantOwnerAPIService",
-        "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj",
-        "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
-        "outputPath": "C:\\training\\Main Project\\backend\\Foodie\\RestaurantOwnerAPIService\\obj\\",
+        "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj",
+        "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\RestaurantOwnerAPIService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -368,11 +368,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj"
               },
-              "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj"
               }
             }
           }
@@ -428,17 +428,17 @@
         }
       }
     },
-    "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj": {
+    "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
-        "outputPath": "C:\\training\\Main Project\\backend\\Foodie\\Services\\obj\\",
+        "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -452,11 +452,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\Repositories\\Repositories.csproj"
               },
-              "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj": {
-                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj"
+              "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj": {
+                "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj"
               }
             }
           }
@@ -509,17 +509,17 @@
         }
       }
     },
-    "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj": {
+    "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj",
-        "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
-        "outputPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\obj\\",
+        "projectPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\Models.csproj",
+        "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\UserModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

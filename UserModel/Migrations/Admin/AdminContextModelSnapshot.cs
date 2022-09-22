@@ -21,95 +21,30 @@ namespace Models.Migrations.Admin
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Models.Feedback", b =>
+            modelBuilder.Entity("UserModel.User", b =>
                 {
-                    b.Property<int>("FeedbackId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                    b.Property<string>("email")
+                        .HasColumnType("nvarchar(450)");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FeedbackId"), 1L, 1);
-
-                    b.Property<string>("Description")
+                    b.Property<string>("password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TypeOfUser")
+                    b.Property<string>("token")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserId")
+                    b.Property<string>("username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("FeedbackId");
-
-                    b.ToTable("Feedback");
-                });
-
-            modelBuilder.Entity("Models.Restaurant", b =>
-                {
-                    b.Property<int>("RestaurantId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RestaurantId"), 1L, 1);
-
-                    b.Property<string>("Location")
+                    b.Property<string>("usertype")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Name")
-                        .HasColumnType("int");
+                    b.HasKey("email");
 
-                    b.Property<string>("RestaurantName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("RestaurantOwnerEmailID")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("rating")
-                        .HasColumnType("int");
-
-                    b.HasKey("RestaurantId");
-
-                    b.ToTable("MainRestaurantList");
-                });
-
-            modelBuilder.Entity("Models.RestaurantRequest", b =>
-                {
-                    b.Property<int>("RestaurantRequestId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RestaurantRequestId"), 1L, 1);
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Location")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("RestaurantId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("RestaurantName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("RestaurantOwnerEmailID")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("isVerified")
-                        .HasColumnType("bit");
-
-                    b.HasKey("RestaurantRequestId");
-
-                    b.ToTable("RestaurantRequest");
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

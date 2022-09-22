@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
+using Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UserModel;
 
 namespace Models
 {
@@ -17,9 +19,10 @@ namespace Models
         {
 
         }
-        public DbSet<RestaurantRequest>RestaurantRequest { get; set; }
-        public DbSet<Restaurant> RestInfo { get; set; }
-        public DbSet<Feedback> Feedback { get; set; }
+        //public DbSet<RestaurantRequest>RestaurantRequest { get; set; }
+        //public DbSet<Restaurant> RestInfo { get; set; }
+        //public DbSet<Feedback> Feedback { get; set; }
+        public DbSet<User> Users { get; set; }
         
 
 

@@ -32,6 +32,7 @@ namespace UserService.Controllers
             return _services.GetItem(id);
         }
 
+
         [HttpGet("RestaurantDetails/{id}")]
 
         public List<Restaurant> GetRestaurantDetails(string id)

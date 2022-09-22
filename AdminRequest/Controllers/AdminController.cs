@@ -2,6 +2,7 @@
 
 using Services;
 using Models;
+using UserModel;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -25,7 +26,7 @@ namespace AdminRequest.Controllers
 
         [HttpGet("RestaurantRequest")]
 
-        public List<RestaurantRequest> GetRestaurantRequest()
+        public List<RestInfoRequest> GetRestaurantRequest()
         {
             return adminService.GetRestaurantRequest();
         }
@@ -34,6 +35,12 @@ namespace AdminRequest.Controllers
         public List<Restaurant> GetMainRestaurants()
         {
             return adminService.GetMainRestaurants();
+        }
+        [HttpGet("UserDetails")]
+
+        public List<User> UserDetails()
+        {
+            return adminService.UserDetails();
         }
         //[HttpGet("Feedback")]
 

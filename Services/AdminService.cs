@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UserModel;
 
 namespace Services
 {
@@ -15,7 +16,7 @@ namespace Services
         {
             this.adminRepo = ar;
         }
-        public List<RestaurantRequest> GetRestaurantRequest()
+        public List<RestInfoRequest> GetRestaurantRequest()
         {
             return adminRepo.GetRestaurantRequest();
         }
@@ -27,6 +28,10 @@ namespace Services
         public string Verified(string id, int value)
         {
             return adminRepo.Verified(id, value);
+        }
+        public List<User> UserDetails()
+        {
+            return adminRepo.UserDetails();
         }
 
         //public List<Feedback> GetFeedbacks()

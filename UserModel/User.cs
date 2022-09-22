@@ -9,11 +9,12 @@ namespace UserModel
 {
     public class User
     {
+        [Key]
+        public string email { get; set; }
         public string username{ get; set; }
         public string password{ get; set; } 
-        [Key]
-        public string email{ get; set; }  
+        
         public string usertype { get; set; }
-        public string token="";
+        public string token { get; set; }
     }
 }

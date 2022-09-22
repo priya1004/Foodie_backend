@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Models;
 using MongoDB.Driver;
+using UserModel;
 
 namespace Repositories
 {
@@ -21,17 +22,25 @@ namespace Repositories
             mongoClient = new MongoClient("mongodb://127.0.0.1:27017"); //url of the server
             database = mongoClient.GetDatabase("Foodie"); //db name
         }
-        public List<RestaurantRequest> GetRestaurantRequest()
-        {
-
-            List<RestaurantRequest> rr = adminContext.RestaurantRequest.ToList<RestaurantRequest>();
-            return rr;
-
-        }
 
         IMongoCollection<Restaurant> Restaurants => database.GetCollection<Restaurant>("RestInfo");
         IMongoCollection<RestInfoRequest> RestInfoRequests => database.GetCollection<RestInfoRequest>("RestInfoRequest");
-       
+        public List<RestInfoRequest> GetRestaurantRequest()
+        {
+
+            return RestInfoRequests.Find((p) => true).ToList();
+
+        }
+        public List<User> UserDetails()
+        {
+
+            return adminContext.Users.ToList();
+
+        }
+
+
+
+
         public List<Restaurant> GetMainRestaurants()
         {
 

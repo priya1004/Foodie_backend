@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "NC6XiaefRkz4JvOknQJLkJucMqN2Qci+R7wgwhxuwFY=",
+  "Hash": "pvgnAGq+iByBrKDmm6MN2xVZV3dv3IRXPzI72oYXpeE=",
   "Source": "UserService",
   "BasePath": "_content/UserService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\training\\Main Project\\backend\\Foodie\\ItemApiService\\ItemApiService.csproj",
+      "Identity": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\ItemApiService\\ItemApiService.csproj",
       "Version": 2,
       "Source": "ItemApiService",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
-      "Identity": "C:\\training\\Main Project\\backend\\Foodie\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj",
+      "Identity": "C:\\Users\\snehaaj\\source\\repos\\Foodie_mongoo\\RestaurantOwnerAPIService\\RestaurantOwnerAPIService.csproj",
       "Version": 2,
       "Source": "RestaurantOwnerAPIService",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

@@ -10,7 +10,7 @@ namespace Models
       [BsonIgnoreExtraElements]
     public class Menu
     {
-      
+      [BsonId]
         public  int dishid { get; set; }
         public string name { get; set; }
         public string desc { get; set; }
