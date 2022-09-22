@@ -49,39 +49,7 @@ namespace UserService.Controllers
         }
 
 
-        [HttpPost("Validate")]
-        public string Validate(User u)
-        {
-            throw new Exception();
-            if (_services.ValidateUser(u))
-
-                return GenerateToken(u);
-            return "User notfound";
-
-        }
-
-        private string GenerateToken(User u)
-        {
-
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-            var claims = new[] {
-                    new Claim(JwtRegisteredClaimNames.Email, u.Email),
-                    new Claim("Role", "User"),
-                    new Claim("Email",u.Email),
-        //new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-    };
-            var token = new JwtSecurityToken(_config["Jwt:Issuer"],
-              _config["Jwt:Audience"],
-             // null,
-             claims,
-             expires: DateTime.Now.AddMinutes(120),
-             signingCredentials: credentials);
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
-
-
+       
 
 
         // PUT api/<UserController>/5

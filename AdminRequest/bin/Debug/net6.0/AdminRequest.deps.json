@@ -670,6 +670,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "Models": "1.0.0",
+          "MongoDB.Driver": "2.17.1",
           "RestaurantOwnerAPIService": "1.0.0",
           "Services": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"

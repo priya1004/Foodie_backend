@@ -11,7 +11,7 @@ namespace Models
     public class Menu
     {
       
-        public  int id { get; set; }
+        public  int dishid { get; set; }
         public string name { get; set; }
         public string desc { get; set; }
         public double price { get; set; }   

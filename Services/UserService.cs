@@ -31,10 +31,10 @@ namespace Services
         {
             return r.GetRestaurantDetails(id);
         }
-        public bool ValidateUser(User u)
-        {
-            return r.ValidateUser(u);
-        }
+        //public bool ValidateUser(User u)
+        //{
+        //    return r.ValidateUser(u);
+        //}
 
     }
 }

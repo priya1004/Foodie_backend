@@ -24,6 +24,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantOwnerAPIService",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartApiService", "CartApiService\CartApiService.csproj", "{11E72B92-2C8C-4D98-AE27-4FE63A8D09ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginApiService", "LoginApiService\LoginApiService.csproj", "{9CCF9D67-F73D-4629-827F-3764446287A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{11E72B92-2C8C-4D98-AE27-4FE63A8D09ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11E72B92-2C8C-4D98-AE27-4FE63A8D09ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11E72B92-2C8C-4D98-AE27-4FE63A8D09ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCF9D67-F73D-4629-827F-3764446287A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCF9D67-F73D-4629-827F-3764446287A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCF9D67-F73D-4629-827F-3764446287A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCF9D67-F73D-4629-827F-3764446287A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

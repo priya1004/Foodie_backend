@@ -19,7 +19,7 @@ namespace Models
         public DbSet<User> Users {get;set;}
         public DbSet<Item> Item {get;set;}
 
-        public DbSet<Restaurant> MainRestaurantList { get; set; }
+        //public DbSet<Restaurant> MainRestaurantList { get; set; }
 
 
 

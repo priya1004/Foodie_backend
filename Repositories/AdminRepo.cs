@@ -51,13 +51,14 @@ namespace Repositories
         {
             List<RestInfoRequest> rr =  RestInfoRequests.Find((p) => true).ToList();
             RestInfoRequest restaurantRequest = null;
+            string msg = "";
             for (int i = 0; i < rr.Count; i++)
             {
                 if (rr[i].restaurantid == id)
                     restaurantRequest = rr[i];
             }
             if (restaurantRequest == null)
-                return "update rejected";
+                msg="No restaurant Request with the given id";
             if (value == 1)
             {
                 restaurantRequest.isVerified = true;
@@ -68,22 +69,24 @@ namespace Repositories
                 Restaurants.InsertOne(new Restaurant(restaurantRequest.restaurantid,restaurantRequest.name,restaurantRequest.address,restaurantRequest.cuisines,restaurantRequest.rating,restaurantRequest.reviews,restaurantRequest.feature_image,restaurantRequest.thumbnail_image,restaurantRequest.menu));
 
                 //rr.Add(new Restaurant(restaurantRequest.RestaurantName, restaurantRequest.Location, 0, restaurantRequest.RestaurantOwnerEmailID));
+                msg="Restaurant is verified";
 
 
             }
-            //else
-            //{
-            //    var update = Builders<RestInfoRequest>.Update.Set("isVerified", false);
-            //    RestInfoRequests.UpdateOne((p) => p.restaurantid == id, update);
-               
-    
-            //    adminContext.MainRestaurantList.Remove(new Restaurant(restaurantRequest.RestaurantName, restaurantRequest.RestaurantId, restaurantRequest.Location, 0, restaurantRequest.RestaurantOwnerEmailID));
+            if(value==0)
+            {
+                restaurantRequest.isVerified = false;
+                var update = Builders<RestInfoRequest>.Update.Set(r => r.isVerified, false);
 
+                RestInfoRequests.UpdateOne((p) => p.restaurantid == id, update);
+                Restaurants.DeleteOne((p) => p.restaurantid == id);
 
-            //}
-           // adminContext.SaveChangesAsync();
+               msg= " Restaurant is Rejected";
+            }
 
-            return "updated3";
+            return msg;
+
+            
         }
 
         //public string PostFeedBacks(Feedback fb)
