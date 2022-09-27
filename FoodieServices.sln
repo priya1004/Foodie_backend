@@ -24,7 +24,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantOwnerAPIService",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartApiService", "CartApiService\CartApiService.csproj", "{11E72B92-2C8C-4D98-AE27-4FE63A8D09ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginApiService", "LoginApiService\LoginApiService.csproj", "{9CCF9D67-F73D-4629-827F-3764446287A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginApiService", "LoginApiService\LoginApiService.csproj", "{9CCF9D67-F73D-4629-827F-3764446287A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

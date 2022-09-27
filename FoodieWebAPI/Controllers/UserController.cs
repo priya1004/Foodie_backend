@@ -16,9 +16,20 @@ namespace UserService.Controllers
     {
 
         private readonly Services.IUserService _services;
+
         private IConfiguration _config = null;
         public UserController(Services.IUserService ser, IConfiguration configuration) { _services = ser; _config = configuration; }
         // GET: api/<UserController>
+
+        [HttpPost("PlaceOrder")]
+        public string PlaceOrder([FromBody] Order o)
+        {
+            
+                return _services.PlaceOrder(o);
+            
+      
+        }
+
         [HttpGet]
         public IEnumerable<string> Get()
         {
@@ -43,9 +54,9 @@ namespace UserService.Controllers
 
         // POST api/<UserController>
         [HttpPost]
-        public void Post([FromBody] User value)
+        public bool Post([FromBody] User value)
         {
-            _services.RegisterUser(value);
+           return  _services.RegisterUser(value);
 
         }
 

@@ -17,8 +17,5 @@ namespace Models
         public int quantity { get; set; }
 
        
-        public string restaurantid { get; set; }
-
-       
     }
 }

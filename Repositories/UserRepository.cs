@@ -25,6 +25,7 @@ namespace Repositories
 
 
         IMongoCollection<Restaurant> Restaurants => database.GetCollection<Restaurant>("RestInfo");
+        IMongoCollection<Order> orders => database.GetCollection<Order>("OrderTable");
         public bool AddUser(User u)
         {
             if (u != null)
@@ -69,7 +70,29 @@ namespace Repositories
             }
             return new_rest_list;
         }
-       
+        public string PlaceOrder(Order o)
+        {
+            List<Order> rr = orders.Find((p) => true).ToList();
+            if (o != null)
+            {
+
+
+
+                orders.InsertOne(o);
+                return "Order placed successfully";
+            }
+            else
+                return "Order failed";
+
+
+
+
+
+
+
+
+        }
+
 
 
 

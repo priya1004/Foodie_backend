@@ -15,6 +15,11 @@ namespace UserModel
         public string password{ get; set; } 
         
         public string usertype { get; set; }
-        public string token { get; set; }
+        private string _token = " ";
+        public string Token
+        {
+            get { return _token; }
+            set { _token = value; }
+        }
     }
 }

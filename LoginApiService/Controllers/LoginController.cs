@@ -43,12 +43,13 @@ namespace LoginApiService.Controllers
         public User Login([FromBody] Login l)
         {
             User user = ls.Login(l);
-            if (user == null)
-            { 
-            user.token = "u";
+            if (user != null)
+            {
+                user.Token = GenerateToken(user);
+
             }
-            else
-            user.token = GenerateToken(user);
+           
+            
 
           return user;
            

@@ -25,6 +25,7 @@ namespace Repositories
 
         IMongoCollection<Restaurant> Restaurants => database.GetCollection<Restaurant>("RestInfo");
         IMongoCollection<RestInfoRequest> RestInfoRequests => database.GetCollection<RestInfoRequest>("RestInfoRequest");
+        IMongoCollection<Owner> Owner => database.GetCollection<Owner>("Owner");
         public List<RestInfoRequest> GetRestaurantRequest()
         {
 
@@ -75,8 +76,9 @@ namespace Repositories
 
                 RestInfoRequests.UpdateOne((p)=>p.restaurantid== id,update);
                 //RestInfoRequest temp = (RestInfoRequest)RestInfoRequests.Find((p) => p.restaurantid == id);
-                Restaurants.InsertOne(new Restaurant(restaurantRequest.restaurantid,restaurantRequest.name,restaurantRequest.address,restaurantRequest.cuisines,restaurantRequest.rating,restaurantRequest.reviews,restaurantRequest.feature_image,restaurantRequest.thumbnail_image,restaurantRequest.menu));
-
+                Restaurant r = new Restaurant(restaurantRequest.restaurantid, restaurantRequest.name, restaurantRequest.address, restaurantRequest.cuisines, restaurantRequest.rating, restaurantRequest.reviews, restaurantRequest.feature_image, restaurantRequest.thumbnail_image, restaurantRequest.menu);
+                Restaurants.InsertOne(r);
+                Owner.InsertOne(new Owner(restaurantRequest.restaurant_owner_email, r));
                 //rr.Add(new Restaurant(restaurantRequest.RestaurantName, restaurantRequest.Location, 0, restaurantRequest.RestaurantOwnerEmailID));
                 msg="Restaurant is verified";
 
@@ -89,8 +91,9 @@ namespace Repositories
 
                 RestInfoRequests.UpdateOne((p) => p.restaurantid == id, update);
                 Restaurants.DeleteOne((p) => p.restaurantid == id);
+                Owner.DeleteOne((p) => p.email == restaurantRequest.restaurant_owner_email);
 
-               msg= " Restaurant is Rejected";
+               msg= "Restaurant is Rejected";
             }
 
             return msg;

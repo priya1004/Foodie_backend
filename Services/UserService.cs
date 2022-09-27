@@ -31,6 +31,11 @@ namespace Services
         {
             return r.GetRestaurantDetails(id);
         }
+
+        public string PlaceOrder(Order o)
+        {
+            return r.PlaceOrder(o);
+        }
         //public bool ValidateUser(User u)
         //{
         //    return r.ValidateUser(u);

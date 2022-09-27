@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // Add services to the container.
+builder.Services.AddCors();
 
 builder.Services.AddControllers();
 
@@ -20,6 +21,8 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 var app = builder.Build(); //appln obj is ready
 
 // Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline.
+app.UseCors(options => options.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
 app.UseAuthorization(); //Middleware Function will be called only when  get,post request is entered in url
 

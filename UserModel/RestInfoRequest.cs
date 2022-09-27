@@ -16,6 +16,7 @@ namespace Models
         public string name { get; set; }
         public string address { get; set; }
         public string cuisines { get; set; }
+        public string restaurant_owner_email { get; set; }
         public string rating { get; set; }
         public string reviews { get; set; }
         public string feature_image { get; set; }

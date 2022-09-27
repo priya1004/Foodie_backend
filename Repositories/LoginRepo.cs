@@ -20,7 +20,14 @@ namespace Repositories
         {
            
             List<User> rr = lc.Users.ToList<User>();
-            User u=null;
+            User u=new User();
+       
+            u.usertype = "no";
+                u.email = "no";
+                u.password = "no";
+                u.username = "no";
+               
+                    
           
             for(int i=0;i<rr.Count;i++)
             {

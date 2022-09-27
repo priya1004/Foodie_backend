@@ -16,7 +16,15 @@ namespace RestaurantOwnerAPIService.Controllers
         {
             res = r;
         }
-
+        [HttpGet("ViewOrderDetails/{restaurantid}")]
+        public List<Order> ViewOrderDetails(string restaurantid)
+        {
+            return res.ViewOrderDetails(restaurantid);
+        }
+        [HttpGet("GetRestaurant/{id}")]
+        public List<Restaurant> GetRestaurant(string id) {
+            return res.GetRestaurant(id);
+        }
 
 
         // GET: api/<RestaurantOwnerController>
@@ -28,7 +36,7 @@ namespace RestaurantOwnerAPIService.Controllers
 
 
         [HttpPost("PostRestaurantRequest")]
-        public string PostRestaurantRequest([FromBody] RestaurantRequest val)
+        public string PostRestaurantRequest([FromBody] RestInfoRequest val)
         {
             return res.PostRequest(val);
 
